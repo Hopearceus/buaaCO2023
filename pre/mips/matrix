@@ -1,0 +1,82 @@
+.data
+col:.space 2000
+row:.space 2000
+num:.space 2000
+seperator:.space 4
+space:.asciiz " "
+enter:.asciiz "\n"
+
+.macro print_out(%i)
+  li $v0, 1
+  move $a0, %i
+  syscall
+  la $a0, space
+  li $v0, 4
+  syscall
+.end_macro
+
+.text
+la $s5, col #s5-col
+la $s6, row #s6-row
+la $s7, num #s7-num
+li $v0, 5
+syscall
+move $s0, $v0 #s0 = n
+li $v0, 5
+syscall
+move $s1, $v0 # s1 = m
+li $t0, 0
+li $t1, 0
+
+loop_1:
+beq $t0, $s0, print_1
+li $t1, 0
+
+loop_2:
+li $v0, 5
+syscall
+bgt $v0, 0, read
+nop
+next:
+addi $t1, $t1, 1
+blt $t1, $s1, loop_2
+nop
+
+addi $t0, $t0, 1
+j loop_1
+nop
+
+read:
+sw $v0, ($s7)
+addi $t7, $t0, 1
+addi $t8, $t1, 1
+sw $t7, ($s6)
+sw $t8, ($s5)
+addi $s7, $s7, 4
+addi $s6, $s6, 4
+addi $s5, $s5, 4
+j next
+nop
+
+print_1:
+
+subi $s6, $s6, 4
+subi $s5, $s5, 4
+subi $s7, $s7, 4
+lw $t1, ($s6)
+print_out($t1)
+lw $t1, ($s5)
+print_out($t1)
+lw $t1, ($s7)
+print_out($t1)
+la $a0, enter
+li $v0, 4
+syscall
+beqz $s5, end
+nop
+j print_1
+nop
+
+end:
+li $v0, 10
+syscall

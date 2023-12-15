@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/123/Desktop/verilog/cpu_checker1/cpu_checker.v -lang verilog -prj cpu_checker1 -o cpu_checker.spl -module cpu_checker -template D:/Xilnix/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan3 cpu_checker.spl C:/Users/123/Desktop/verilog/cpu_checker1/cpu_checker.sym 

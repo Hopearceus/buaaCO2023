@@ -1,0 +1,11 @@
+[Inputs]
+Clk
+Reset
+En
+[Outputs]
+Overflow
+=Output[2:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel gray
+

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/123/Desktop/verilog/P1/gray.v -lang verilog -prj P1 -o gray.spl -module gray -template D:/Xilnix/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan3 gray.spl C:/Users/123/Desktop/verilog/P1/gray.sym 

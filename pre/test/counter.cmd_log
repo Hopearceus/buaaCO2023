@@ -1,0 +1,5 @@
+vhdtdtfi -lib work C:/Users/123/Desktop/verilog/test/count.v -lang verilog -prj test -o counter.spl -module counter -template D:/Xilnix/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan3 counter.spl C:/Users/123/Desktop/verilog/test/counter.sym 
+vhdtdtfi -lang verilog -prj test -o C:/Users/123/Desktop/verilog/test/counter.tfi -lib work C:/Users/123/Desktop/verilog/test//count.v -module counter -template D:/Xilnix/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj test -o C:/Users/123/Desktop/verilog/test/counter.tfi -lib work C:/Users/123/Desktop/verilog/test//count.v -module counter -template D:/Xilnix/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "C:/Users/123/Desktop/verilog/test/counter.xst" -ofn "C:/Users/123/Desktop/verilog/test/counter.syr" 

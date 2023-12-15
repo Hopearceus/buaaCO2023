@@ -1,0 +1,2 @@
+verilog work "datapath/ext.v"
+verilog work "datapath/npc.v"

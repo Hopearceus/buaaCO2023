@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"C:\Users\123\Desktop\verilog\P5\pipeline\datapath\im.v" Line 28: Signal &lt;<arg fmt="%s" index="1">im_data</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\123\Desktop\verilog\P5\pipeline\ctrl.v" Line 114: Assignment to <arg fmt="%s" index="1">isStall</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" Line 98: Assignment to <arg fmt="%s" index="1">code_D</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\123\Desktop\verilog\P5\pipeline\datapath\cmp.v" Line 27: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" Line 105: Assignment to <arg fmt="%s" index="1">regFor1_M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" Line 135: Assignment to <arg fmt="%s" index="1">aluSrc1_E</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\123\Desktop\verilog\P5\pipeline\datapath\alu.v" Line 29: Assignment to <arg fmt="%s" index="1">aluOut</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\123\Desktop\verilog\P5\pipeline\datapath\alu.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">alu</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" Line 162: Assignment to <arg fmt="%s" index="1">rd_M</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" Line 173: Assignment to <arg fmt="%s" index="1">instr_W</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" Line 25: Net &lt;<arg fmt="%s" index="1">isStall</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" Line 43: Net &lt;<arg fmt="%s" index="1">aluSrc1_D</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" Line 51: Net &lt;<arg fmt="%s" index="1">aluOut_E[31]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\ctrl.v</arg>&quot; line <arg fmt="%d" index="2">114</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">stallctrl</arg>&gt; of block &lt;<arg fmt="%s" index="4">stallctrl</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">ctrl</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">76</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">im</arg>&gt; of block &lt;<arg fmt="%s" index="4">im</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">77</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">F_pc_D</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">78</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">F_instr_D</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">79</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">F_pc8_D</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">80</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">F_pc4_D</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">81</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_npc_F</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">82</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_npcOp_F</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">98</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ctrl</arg>&gt; of block &lt;<arg fmt="%s" index="4">ctrl</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">100</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">grf</arg>&gt; of block &lt;<arg fmt="%s" index="4">grf</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">101</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">cmp</arg>&gt; of block &lt;<arg fmt="%s" index="4">cmp</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">102</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ext_offset</arg>&gt; of block &lt;<arg fmt="%s" index="4">ext</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">103</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">forwardctrl</arg>&gt; of block &lt;<arg fmt="%s" index="4">forwardctrl</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">112</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ext16_32</arg>&gt; of block &lt;<arg fmt="%s" index="4">ext</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">122</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_pc_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">123</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_pc8_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">124</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_instr_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">125</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_regW_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">126</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_memToreg_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">127</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_memW_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">129</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_rs_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">130</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_rt_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">131</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_rd_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">132</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_regWa_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">133</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_regWsrc_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">134</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_aluOp_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">135</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_aluSrc1_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">136</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_aluSrc2_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">137</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_offset32_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">138</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_Tnew_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">139</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_regOut1_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">140</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_regOut2_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">141</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">D_offset_E</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">146</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">alu</arg>&gt; of block &lt;<arg fmt="%s" index="4">alu</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">150</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_pc_M</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">151</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_pc8_M</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">152</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_instr_M</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">153</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_regOut1_M</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">154</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_regOut2_M</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">155</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_aluOut_M</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">156</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_regWd_M</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">157</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_regW_M</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">158</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_memToreg_M</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">159</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_memW_M</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">160</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_rs_M</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">161</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_rt_M</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">162</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_rd_M</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">163</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_regWa_M</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">164</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">E_Tnew_M</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">167</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">dm</arg>&gt; of block &lt;<arg fmt="%s" index="4">dm</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">171</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">M_pc_W</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">172</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">M_pc8_W</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">173</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">M_instr_W</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">174</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">M_regWd_W</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">175</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">M_regW_W</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%d" index="2">176</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">M_regWa_W</arg>&gt; of block &lt;<arg fmt="%s" index="4">pipereg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%s" index="2">98</arg>: Output port &lt;<arg fmt="%s" index="3">code</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrl</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%s" index="2">98</arg>: Output port &lt;<arg fmt="%s" index="3">func</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ctrl</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">regFor1_M</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">forwardctrl</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">pc8For_D</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">forwardctrl</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">pc8For_E</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">forwardctrl</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">pc8For_M</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">forwardctrl</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%s" index="2">135</arg>: Output port &lt;<arg fmt="%s" index="3">out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">D_aluSrc1_E</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%s" index="2">162</arg>: Output port &lt;<arg fmt="%s" index="3">out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">E_rd_M</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\123\Desktop\verilog\P5\pipeline\mips.v</arg>&quot; line <arg fmt="%s" index="2">173</arg>: Output port &lt;<arg fmt="%s" index="3">out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">M_instr_W</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">aluOut_E</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">isStall</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">aluSrc1_D</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+</messages>
+

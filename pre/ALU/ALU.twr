@@ -1,0 +1,87 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilnix\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml ALU.twx ALU.ncd -o ALU.twr ALU.pcf
+
+Design file:              ALU.ncd
+Physical constraint file: ALU.pcf
+Device,package,speed:     xa3s50,vqg100,-4 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>           |ans<0>         |    7.464|
+a<0>           |ans<1>         |    7.787|
+a<0>           |ans<2>         |    9.014|
+a<0>           |ans<3>         |   10.761|
+a<1>           |ans<1>         |    8.041|
+a<1>           |ans<2>         |    9.247|
+a<1>           |ans<3>         |   10.994|
+a<2>           |ans<2>         |    8.238|
+a<2>           |ans<3>         |   10.044|
+a<3>           |ans<3>         |   10.752|
+b<0>           |ans<0>         |    7.407|
+b<0>           |ans<1>         |    8.829|
+b<0>           |ans<2>         |    9.163|
+b<0>           |ans<3>         |   10.910|
+b<1>           |ans<1>         |    7.881|
+b<1>           |ans<2>         |    9.093|
+b<1>           |ans<3>         |   10.840|
+b<2>           |ans<2>         |    7.718|
+b<2>           |ans<3>         |   10.108|
+b<3>           |ans<3>         |   10.308|
+op<0>          |ans<0>         |    7.615|
+op<0>          |ans<1>         |    9.022|
+op<0>          |ans<2>         |    8.493|
+op<0>          |ans<3>         |    9.214|
+op<1>          |ans<0>         |    7.607|
+op<1>          |ans<1>         |    8.244|
+op<1>          |ans<2>         |    8.266|
+op<1>          |ans<3>         |    8.987|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Sep 03 15:55:49 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4483 MB
+
+
+

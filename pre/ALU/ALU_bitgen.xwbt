@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\123\Desktop\verilog\ALU\ALU.ncd
+OUTFILE=C:\Users\123\Desktop\verilog\ALU\ALU.bit
+FAMILY=Automotive Spartan3
+PART=xa3s50-4vqg100
+WORKINGDIR=C:\Users\123\Desktop\verilog\ALU
+LICENSE=ISE
+USER_INFO=135256_15690819_173552794_661

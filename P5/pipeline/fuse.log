@@ -1,0 +1,263 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/123/Desktop/verilog/P5/pipeline/mips_tb_isim_beh.exe" -prj "C:/Users/123/Desktop/verilog/P5/pipeline/mips_tb_beh.prj" "work.mips_tb" "work.glbl" --verbose=1 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+INFO:Simulator:958 - Library Mapping: Sourcing library mapping file "D:/Xilnix/14.7/ISE_DS/ISE/vhdl/hdp/nt64/xilinxsim.ini"
+The vhdl library search path for library \"std\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/std\"
+The veri library search path for library \"std\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/std\"
+The vhdl library search path for library \"ieee\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/ieee\"
+The veri library search path for library \"ieee\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/ieee\"
+The vhdl library search path for library \"ieee_proposed\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/ieee_proposed\"
+The veri library search path for library \"ieee_proposed\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/ieee_proposed\"
+The vhdl library search path for library \"vl\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/vl\"
+The veri library search path for library \"vl\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/vl\"
+The vhdl library search path for library \"synopsys\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/synopsys\"
+The veri library search path for library \"synopsys\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/synopsys\"
+The vhdl library search path for library \"simprim\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/simprim\"
+The veri library search path for library \"simprim\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/simprim\"
+The vhdl library search path for library \"unisim\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/unisim\"
+The veri library search path for library \"unisim\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/unisim\"
+The vhdl library search path for library \"unimacro\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/unimacro\"
+The veri library search path for library \"unimacro\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/unimacro\"
+The vhdl library search path for library \"aim\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/aim\"
+The veri library search path for library \"aim\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/aim\"
+The vhdl library search path for library \"cpld\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/cpld\"
+The veri library search path for library \"cpld\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/cpld\"
+The vhdl library search path for library \"pls\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/pls\"
+The veri library search path for library \"pls\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/pls\"
+The vhdl library search path for library \"xilinxcorelib\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/xilinxcorelib\"
+The veri library search path for library \"xilinxcorelib\" is now \"d:/xilnix/14.7/ise_ds/ise/vhdl/hdp/nt64/xilinxcorelib\"
+The vhdl library search path for library \"aim_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/aim_ver\"
+The veri library search path for library \"aim_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/aim_ver\"
+The vhdl library search path for library \"cpld_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/cpld_ver\"
+The veri library search path for library \"cpld_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/cpld_ver\"
+The vhdl library search path for library \"simprims_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/simprims_ver\"
+The veri library search path for library \"simprims_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/simprims_ver\"
+The vhdl library search path for library \"unisims_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/unisims_ver\"
+The veri library search path for library \"unisims_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/unisims_ver\"
+The vhdl library search path for library \"uni9000_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/uni9000_ver\"
+The veri library search path for library \"uni9000_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/uni9000_ver\"
+The vhdl library search path for library \"unimacro_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/unimacro_ver\"
+The veri library search path for library \"unimacro_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/unimacro_ver\"
+The vhdl library search path for library \"xilinxcorelib_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/xilinxcorelib_ver\"
+The veri library search path for library \"xilinxcorelib_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/xilinxcorelib_ver\"
+The vhdl library search path for library \"secureip\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/xip/secureip\"
+The veri library search path for library \"secureip\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/xip/secureip\"
+INFO:Simulator:958 - Library Mapping: Sourcing library mapping file "xilinxsim.ini"
+The vhdl library search path for library \"work\" is now \"c:/users/123/desktop/verilog/p5/pipeline/isim/work\"
+The veri library search path for library \"work\" is now \"c:/users/123/desktop/verilog/p5/pipeline/isim/work\"
+The vhdl library search path for library \"unisims_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/unisims_ver\"
+The veri library search path for library \"unisims_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/unisims_ver\"
+The vhdl library search path for library \"unimacro_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/unimacro_ver\"
+The veri library search path for library \"unimacro_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/unimacro_ver\"
+The vhdl library search path for library \"xilinxcorelib_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/xilinxcorelib_ver\"
+The veri library search path for library \"xilinxcorelib_ver\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/xilinxcorelib_ver\"
+The vhdl library search path for library \"secureip\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/xip/secureip\"
+The veri library search path for library \"secureip\" is now \"d:/xilnix/14.7/ise_ds/ise/verilog/hdp/nt64/xip/secureip\"
+
+-- Dumping Relevant Parameters
+XILINX = D:\Xilnix\14.7\ISE_DS\ISE\
+PATH = D:\Xilnix\14.7\ISE_DS\ISE\\lib\nt64;D:\Xilnix\14.7\ISE_DS\ISE\\bin\nt64;D:\Xilnix\14.7\ISE_DS\ISE\sysgen\bin\nt64;D:\Xilnix\14.7\ISE_DS\ISE\\bin\nt64\Microsoft.VC90.CRT;D:\Xilnix\14.7\ISE_DS\ISE\\bin\nt64\Microsoft.VC90.MFC;D:\Xilnix\14.7\ISE_DS\ISE\bin\nt64;D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64;D:\Xilnix\14.7\ISE_DS\ISE\..\..\..\DocNav;D:\Xilnix\14.7\ISE_DS\PlanAhead\bin;D:\Xilnix\14.7\ISE_DS\EDK\bin\nt64;D:\Xilnix\14.7\ISE_DS\EDK\lib\nt64;D:\Xilnix\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;D:\Xilnix\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;D:\Xilnix\14.7\ISE_DS\EDK\gnuwin\bin;D:\Xilnix\14.7\ISE_DS\EDK\gnu\arm\nt\bin;D:\Xilnix\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;D:\Xilnix\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;D:\Xilnix\14.7\ISE_DS\common\bin\nt64;D:\Xilnix\14.7\ISE_DS\common\lib\nt64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\nodejs\;D:\xshell\;D:\xftp\;"C:\Users\123\.jdks\openjdk-20.0.2\bin;C:\Users\123\.jdks\openjdk-20.0.2\jre\bin;";";C:\Program Files (x86)\mysql-8.0.11-winx64\bin;C:\Users\123\AppData\Local\Microsoft\WindowsApps;C:\Users\123\miniconda3;C:\Users\123\miniconda3\Scripts;C:\Users\123\miniconda3\Library\bin;D:\IntelliJ IDEA Community Edition 2023.2.1\bin;C:\Users\123\AppData\Roaming\npm;C:\nodejs\node_global
+CWD = C:/Users/123/Desktop/verilog/P5/pipeline
+GCC = D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe
+-- Done dumping Relevant Parameters
+
+-- Dumping System Information
+release = 6.2 
+machine = x86_64
+-- Done dumping System Information
+
+-- Dumping Loaded Modules
+C:\Program Files (x86)\AISHU\SyncDisk\winhook64.dll
+C:\WINDOWS\SYSTEM32\MPR.dll
+C:\WINDOWS\SYSTEM32\WSOCK32.dll
+C:\WINDOWS\SYSTEM32\cscapi.dll
+C:\WINDOWS\SYSTEM32\dbghelp.dll
+C:\WINDOWS\SYSTEM32\ntdll.dll
+C:\WINDOWS\SYSTEM32\windows.storage.dll
+C:\WINDOWS\SYSTEM32\wintypes.dll
+C:\WINDOWS\System32\ADVAPI32.dll
+C:\WINDOWS\System32\GDI32.dll
+C:\WINDOWS\System32\IMM32.DLL
+C:\WINDOWS\System32\KERNEL32.DLL
+C:\WINDOWS\System32\KERNELBASE.dll
+C:\WINDOWS\System32\OLEAUT32.dll
+C:\WINDOWS\System32\PSAPI.DLL
+C:\WINDOWS\System32\RPCRT4.dll
+C:\WINDOWS\System32\SHELL32.dll
+C:\WINDOWS\System32\SHLWAPI.dll
+C:\WINDOWS\System32\USER32.dll
+C:\WINDOWS\System32\WINSTA.dll
+C:\WINDOWS\System32\WS2_32.dll
+C:\WINDOWS\System32\combase.dll
+C:\WINDOWS\System32\davclnt.dll
+C:\WINDOWS\System32\drprov.dll
+C:\WINDOWS\System32\gdi32full.dll
+C:\WINDOWS\System32\imagehlp.dll
+C:\WINDOWS\System32\msvcp_win.dll
+C:\WINDOWS\System32\msvcrt.dll
+C:\WINDOWS\System32\netutils.dll
+C:\WINDOWS\System32\ntlanman.dll
+C:\WINDOWS\System32\ole32.dll
+C:\WINDOWS\System32\p9np.dll
+C:\WINDOWS\System32\sechost.dll
+C:\WINDOWS\System32\ucrtbase.dll
+C:\WINDOWS\System32\win32u.dll
+C:\WINDOWS\System32\wkscli.dll
+C:\WINDOWS\WinSxS\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9635_none_08e2c157a83ed5da\MSVCP90.dll
+C:\WINDOWS\WinSxS\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9635_none_08e2c157a83ed5da\MSVCR90.dll
+D:\Xilnix\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\LIBBZ2.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\boost_date_time-vc90-mt-p-1_38.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\boost_filesystem-vc90-mt-p-1_38.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\boost_iostreams-vc90-mt-p-1_38.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\boost_program_options-vc90-mt-p-1_38.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\boost_regex-vc90-mt-p-1_38.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\boost_system-vc90-mt-p-1_38.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\boost_thread-vc90-mt-p-1_38.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\boost_zlib-vc90-mt-p-1_38.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\libICR.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\libMiniZip.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\libPersonalityModule.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\libPort_Std.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\libPortability.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\libPrjrep_Clientac.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\libStaticFileParsers.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\libThread.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\libUtilC_MessageDispatcher.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\libUtilities.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\libVrfc_Verific.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\libVrfc_Vhdl_Sort.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\libZlib.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\libisl_iostreams.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\libpthread.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\libxercesc.dll
+D:\Xilnix\14.7\ISE_DS\ISE\lib\nt64\stlport.5.1.dll
+-- Done dumping Loaded Modules
+
+-- Dumping library mapping
+aim=D:/Xilnix/14.7/ISE_DS/ISE/vhdl/hdp/nt64/aim
+aim_ver=D:/Xilnix/14.7/ISE_DS/ISE/verilog/hdp/nt64/aim_ver
+cpld=D:/Xilnix/14.7/ISE_DS/ISE/vhdl/hdp/nt64/cpld
+cpld_ver=D:/Xilnix/14.7/ISE_DS/ISE/verilog/hdp/nt64/cpld_ver
+ieee=D:/Xilnix/14.7/ISE_DS/ISE/vhdl/hdp/nt64/ieee
+ieee_proposed=D:/Xilnix/14.7/ISE_DS/ISE/vhdl/hdp/nt64/ieee_proposed
+pls=D:/Xilnix/14.7/ISE_DS/ISE/vhdl/hdp/nt64/pls
+secureip=D:/Xilnix/14.7/ISE_DS/ISE/verilog/hdp/nt64/xip/secureip
+simprim=D:/Xilnix/14.7/ISE_DS/ISE/vhdl/hdp/nt64/simprim
+simprims_ver=D:/Xilnix/14.7/ISE_DS/ISE/verilog/hdp/nt64/simprims_ver
+std=D:/Xilnix/14.7/ISE_DS/ISE/vhdl/hdp/nt64/std
+synopsys=D:/Xilnix/14.7/ISE_DS/ISE/vhdl/hdp/nt64/synopsys
+uni9000_ver=D:/Xilnix/14.7/ISE_DS/ISE/verilog/hdp/nt64/uni9000_ver
+unimacro=D:/Xilnix/14.7/ISE_DS/ISE/vhdl/hdp/nt64/unimacro
+unimacro_ver=D:/Xilnix/14.7/ISE_DS/ISE/verilog/hdp/nt64/unimacro_ver
+unisim=D:/Xilnix/14.7/ISE_DS/ISE/vhdl/hdp/nt64/unisim
+unisims_ver=D:/Xilnix/14.7/ISE_DS/ISE/verilog/hdp/nt64/unisims_ver
+vl=D:/Xilnix/14.7/ISE_DS/ISE/vhdl/hdp/nt64/vl
+work=isim/work
+xilinxcorelib=D:/Xilnix/14.7/ISE_DS/ISE/vhdl/hdp/nt64/xilinxcorelib
+xilinxcorelib_ver=D:/Xilnix/14.7/ISE_DS/ISE/verilog/hdp/nt64/xilinxcorelib_ver
+-- Done dumping library mapping
+
+Analyzing Verilog file "C:/Users/123/Desktop/verilog/P5/pipeline/stallctrl.v" into library work
+Parsing module <stallctrl>.
+Analyzing Verilog file "C:/Users/123/Desktop/verilog/P5/pipeline/forwardctrl.v" into library work
+Parsing module <forwardctrl>.
+Analyzing Verilog file "C:/Users/123/Desktop/verilog/P5/pipeline/datapath/pipereg2.v" into library work
+Parsing module <pipereg2>.
+Analyzing Verilog file "C:/Users/123/Desktop/verilog/P5/pipeline/datapath/pipereg.v" into library work
+Parsing module <pipereg>.
+Analyzing Verilog file "C:/Users/123/Desktop/verilog/P5/pipeline/datapath/im.v" into library work
+Parsing module <im>.
+Analyzing Verilog file "C:/Users/123/Desktop/verilog/P5/pipeline/datapath/grf.v" into library work
+Parsing module <grf>.
+Analyzing Verilog file "C:/Users/123/Desktop/verilog/P5/pipeline/datapath/ext.v" into library work
+Parsing module <ext>.
+Analyzing Verilog file "C:/Users/123/Desktop/verilog/P5/pipeline/datapath/dm.v" into library work
+Parsing module <dm>.
+Analyzing Verilog file "C:/Users/123/Desktop/verilog/P5/pipeline/datapath/cmp.v" into library work
+Parsing module <cmp>.
+Analyzing Verilog file "C:/Users/123/Desktop/verilog/P5/pipeline/datapath/alu.v" into library work
+Parsing module <alu>.
+Analyzing Verilog file "C:/Users/123/Desktop/verilog/P5/pipeline/ctrl.v" into library work
+Parsing module <ctrl>.
+Analyzing Verilog file "C:/Users/123/Desktop/verilog/P5/pipeline/mips.v" into library work
+Parsing module <mips>.
+Analyzing Verilog file "C:/Users/123/Desktop/verilog/P5/pipeline/mips_tb.v" into library work
+Parsing module <mips_tb>.
+Analyzing Verilog file "D:/Xilnix/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing module <glbl>.
+Starting static elaboration
+
+Elaborating module <mips_tb>.
+
+Elaborating module <glbl>.
+Completed static elaboration
+Compiling module im - m_00000000002784903858_3037376393
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000002784903858_3037376393.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000002784903858_3037376393.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000002784903858_3037376393.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000002784903858_3037376393.c"
+Compiling module pipereg2 - m_00000000002991975736_1445641171
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000002991975736_1445641171.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000002991975736_1445641171.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000002991975736_1445641171.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000002991975736_1445641171.c"
+Compiling module pipereg(WIDTH=3) - m_00000000001032232354_0079564777
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_0079564777.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_0079564777.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_0079564777.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_0079564777.c"
+Compiling module stallctrl - m_00000000002541956666_1623485051
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000002541956666_1623485051.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000002541956666_1623485051.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000002541956666_1623485051.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000002541956666_1623485051.c"
+Compiling module ctrl - m_00000000000161779110_2885957937
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000000161779110_2885957937.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000000161779110_2885957937.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000000161779110_2885957937.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000000161779110_2885957937.c"
+Compiling module grf - m_00000000001465943533_4127636709
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000001465943533_4127636709.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000001465943533_4127636709.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001465943533_4127636709.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001465943533_4127636709.c"
+Compiling module cmp - m_00000000003947278312_3363942390
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000003947278312_3363942390.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000003947278312_3363942390.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000003947278312_3363942390.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000003947278312_3363942390.c"
+Compiling module ext - m_00000000003106388859_4241813833
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000003106388859_4241813833.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000003106388859_4241813833.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000003106388859_4241813833.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000003106388859_4241813833.c"
+Compiling module forwardctrl - m_00000000004067231440_3885196136
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000004067231440_3885196136.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000004067231440_3885196136.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000004067231440_3885196136.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000004067231440_3885196136.c"
+Compiling module pipereg - m_00000000001032232354_1865908462
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_1865908462.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_1865908462.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_1865908462.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_1865908462.c"
+Compiling module pipereg(WIDTH=1) - m_00000000001032232354_0914910571
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_0914910571.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_0914910571.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_0914910571.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_0914910571.c"
+Compiling module pipereg(WIDTH=5) - m_00000000001032232354_1390717039
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_1390717039.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_1390717039.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_1390717039.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_1390717039.c"
+Compiling module pipereg(WIDTH=2) - m_00000000001032232354_0497368744
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_0497368744.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_0497368744.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_0497368744.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_0497368744.c"
+Compiling module pipereg(WIDTH=16) - m_00000000001032232354_3524816140
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_3524816140.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_3524816140.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_3524816140.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_3524816140.c"
+Compiling module alu - m_00000000003576185585_2725559894
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000003576185585_2725559894.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000003576185585_2725559894.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000003576185585_2725559894.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000003576185585_2725559894.c"
+Compiling module dm - m_00000000002393431474_0010801604
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000002393431474_0010801604.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000002393431474_0010801604.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000002393431474_0010801604.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000002393431474_0010801604.c"
+Compiling module mips - m_00000000001980849106_3877310806
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000001980849106_3877310806.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000001980849106_3877310806.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001980849106_3877310806.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001980849106_3877310806.c"
+Compiling module mips_tb - m_00000000002047498008_0258635663
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000002047498008_0258635663.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000002047498008_0258635663.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000002047498008_0258635663.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000002047498008_0258635663.c"
+Compiling module glbl - m_00000000004134447467_2073120511
+Compiling isim/mips_tb_isim_beh.exe.sim/work/m_00000000004134447467_2073120511.c to isim/mips_tb_isim_beh.exe.sim/work/m_00000000004134447467_2073120511.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/m_00000000004134447467_2073120511.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000004134447467_2073120511.c"
+Time Resolution for simulation is 1ps.
+Compiling isim/mips_tb_isim_beh.exe.sim/work/mips_tb_isim_beh.exe_main.c to isim/mips_tb_isim_beh.exe.sim/work/mips_tb_isim_beh.exe_main.nt64.obj with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -c -o "isim/mips_tb_isim_beh.exe.sim/work/mips_tb_isim_beh.exe_main.nt64.obj" -I"D:/Xilnix/14.7/ISE_DS/ISE/data/include" "isim/mips_tb_isim_beh.exe.sim/work/mips_tb_isim_beh.exe_main.c"
+Waiting for 4 sub-compilation(s) to finish...
+Linking with command:
+"D:/Xilnix/14.7/ISE_DS/ISE/gnu/MinGW/Beta/nt64/bin/x86_64-w64-mingw32-gcc.exe" -Wa,-W  -O  -Wl,--stack,157286400 -o "isim/mips_tb_isim_beh.exe.sim/mips_tb_isim_beh.exe" "isim/mips_tb_isim_beh.exe.sim/work/mips_tb_isim_beh.exe_main.nt64.obj"  "isim/mips_tb_isim_beh.exe.sim/work/m_00000000002784903858_3037376393.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000002991975736_1445641171.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_0079564777.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000002541956666_1623485051.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000000161779110_2885957937.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001465943533_4127636709.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000003947278312_3363942390.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000003106388859_4241813833.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000004067231440_3885196136.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_1865908462.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_0914910571.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_1390717039.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_0497368744.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001032232354_3524816140.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000003576185585_2725559894.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000002393431474_0010801604.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000001980849106_3877310806.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000002047498008_0258635663.nt64.obj" "isim/mips_tb_isim_beh.exe.sim/work/m_00000000004134447467_2073120511.nt64.obj" "D:/Xilnix/14.7/ISE_DS/ISE/lib/nt64/libhsimengine.dll"
+Compiled 19 Verilog Units
+Built simulation executable C:/Users/123/Desktop/verilog/P5/pipeline/mips_tb_isim_beh.exe
+Fuse Memory Usage: 42276 KB
+Fuse CPU Usage: 3015 ms

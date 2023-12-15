@@ -1,0 +1,5 @@
+vhdtdtfi -lib work C:/Users/123/Desktop/verilog/counter/counter.v -lang verilog -prj counter -o code.spl -module code -template D:/Xilnix/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan3 code.spl C:/Users/123/Desktop/verilog/counter/code.sym 
+xst -intstyle ise -ifn "C:/Users/123/Desktop/verilog/counter/code.xst" -ofn "C:/Users/123/Desktop/verilog/counter/code.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s50-vqg100-4 code.ngc code.ngd  
+map -intstyle ise -p xa3s50-vqg100-4 -cm area -ir off -pr off -c 100 -o code_map.ncd code.ngd code.pcf 

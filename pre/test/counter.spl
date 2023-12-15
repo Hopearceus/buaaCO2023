@@ -1,0 +1,9 @@
+[Inputs]
+clk
+rst_n
+=cnt[3:0]=
+[Outputs]
+[BiDir]
+[ATTRIBUTES]
+VeriModel counter
+

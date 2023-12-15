@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/123/Desktop/verilog/P5/pipeline/ctrl_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/mips_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/npc_F" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">npc_F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">npc_F[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/npcOp_F" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">npcOp_F[2:0]</obj_property>
+      <obj_property name="ObjectShortName">npcOp_F[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/regWa_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regWa_D[4:0]</obj_property>
+      <obj_property name="ObjectShortName">regWa_D[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/regOut1_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regOut1_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regOut1_D[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/regOut2_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regOut2_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regOut2_D[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/regOut1_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regOut1_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regOut1_E[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/regOut2_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regOut2_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regOut2_E[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/aluOut_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluOut_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluOut_E[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/regWa_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regWa_E[4:0]</obj_property>
+      <obj_property name="ObjectShortName">regWa_E[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/regWd_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regWd_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regWd_E[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/regWd_tmpM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regWd_tmpM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regWd_tmpM[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/rs_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rs_D[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_D[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/rt_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rt_D[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt_D[4:0]</obj_property>
+   </wvobject>
+</wave_config>

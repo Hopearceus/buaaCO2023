@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/123/Desktop/verilog/cpu_checker2/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/123/Desktop/verilog/cpu_checker2/xst"
+elaborate
+-ifn testtt.prj
+-ifmt mixed

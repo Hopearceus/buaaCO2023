@@ -1,0 +1,392 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.24 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.24 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xc6slx100-2-fgg676
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\123\Desktop\verilog\P5\pipeline\stallctrl.v" into library work
+Parsing module <stallctrl>.
+Analyzing Verilog file "C:\Users\123\Desktop\verilog\P5\pipeline\forwardctrl.v" into library work
+Parsing module <forwardctrl>.
+Analyzing Verilog file "C:\Users\123\Desktop\verilog\P5\pipeline\datapath\pipereg.v" into library work
+Parsing module <pipereg>.
+Analyzing Verilog file "C:\Users\123\Desktop\verilog\P5\pipeline\datapath\im.v" into library work
+Parsing module <im>.
+Analyzing Verilog file "C:\Users\123\Desktop\verilog\P5\pipeline\datapath\grf.v" into library work
+Parsing module <grf>.
+Analyzing Verilog file "C:\Users\123\Desktop\verilog\P5\pipeline\datapath\ext.v" into library work
+Parsing module <ext>.
+Analyzing Verilog file "C:\Users\123\Desktop\verilog\P5\pipeline\datapath\dm.v" into library work
+Parsing module <dm>.
+Analyzing Verilog file "C:\Users\123\Desktop\verilog\P5\pipeline\datapath\cmp.v" into library work
+Parsing module <cmp>.
+Analyzing Verilog file "C:\Users\123\Desktop\verilog\P5\pipeline\datapath\alu.v" into library work
+Parsing module <alu>.
+Analyzing Verilog file "C:\Users\123\Desktop\verilog\P5\pipeline\ctrl.v" into library work
+Parsing module <ctrl>.
+Analyzing Verilog file "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" into library work
+Parsing module <mips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <mips>.
+
+Elaborating module <im>.
+Reading initialization file \"code.txt\".
+WARNING:HDLCompiler:1670 - "C:\Users\123\Desktop\verilog\P5\pipeline\datapath\im.v" Line 28: Signal <im_data> in initial block is partially initialized.
+
+Elaborating module <pipereg>.
+
+Elaborating module <pipereg(WIDTH=3)>.
+
+Elaborating module <ctrl>.
+
+Elaborating module <stallctrl>.
+WARNING:HDLCompiler:1127 - "C:\Users\123\Desktop\verilog\P5\pipeline\ctrl.v" Line 114: Assignment to isStall ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" Line 98: Assignment to code_D ignored, since the identifier is never used
+
+Elaborating module <grf>.
+"C:\Users\123\Desktop\verilog\P5\pipeline\datapath\grf.v" Line 46. $display  32'b................................ 5'b..... 32'b................................
+
+Elaborating module <cmp>.
+WARNING:HDLCompiler:413 - "C:\Users\123\Desktop\verilog\P5\pipeline\datapath\cmp.v" Line 27: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <ext>.
+
+Elaborating module <forwardctrl>.
+WARNING:HDLCompiler:1127 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" Line 105: Assignment to regFor1_M ignored, since the identifier is never used
+
+Elaborating module <pipereg(WIDTH=1)>.
+
+Elaborating module <pipereg(WIDTH=5)>.
+
+Elaborating module <pipereg(WIDTH=2)>.
+WARNING:HDLCompiler:1127 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" Line 135: Assignment to aluSrc1_E ignored, since the identifier is never used
+
+Elaborating module <pipereg(WIDTH=16)>.
+
+Elaborating module <alu>.
+WARNING:HDLCompiler:1127 - "C:\Users\123\Desktop\verilog\P5\pipeline\datapath\alu.v" Line 29: Assignment to aluOut ignored, since the identifier is never used
+WARNING:HDLCompiler:1499 - "C:\Users\123\Desktop\verilog\P5\pipeline\datapath\alu.v" Line 21: Empty module <alu> remains a black box.
+WARNING:HDLCompiler:1127 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" Line 162: Assignment to rd_M ignored, since the identifier is never used
+
+Elaborating module <dm>.
+"C:\Users\123\Desktop\verilog\P5\pipeline\datapath\dm.v" Line 40. $display  32'b................................ 32'b................................ 32'b................................
+WARNING:HDLCompiler:1127 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" Line 173: Assignment to instr_W ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" Line 25: Net <isStall> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" Line 43: Net <aluSrc1_D> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" Line 51: Net <aluOut_E[31]> does not have a driver.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\ctrl.v" line 114. All outputs of instance <stallctrl> of block <stallctrl> are unconnected in block <ctrl>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 76. All outputs of instance <im> of block <im> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 77. All outputs of instance <F_pc_D> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 78. All outputs of instance <F_instr_D> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 79. All outputs of instance <F_pc8_D> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 80. All outputs of instance <F_pc4_D> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 81. All outputs of instance <D_npc_F> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 82. All outputs of instance <D_npcOp_F> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 98. All outputs of instance <ctrl> of block <ctrl> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 100. All outputs of instance <grf> of block <grf> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 101. All outputs of instance <cmp> of block <cmp> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 102. All outputs of instance <ext_offset> of block <ext> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 103. All outputs of instance <forwardctrl> of block <forwardctrl> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 112. All outputs of instance <ext16_32> of block <ext> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 122. All outputs of instance <D_pc_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 123. All outputs of instance <D_pc8_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 124. All outputs of instance <D_instr_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 125. All outputs of instance <D_regW_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 126. All outputs of instance <D_memToreg_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 127. All outputs of instance <D_memW_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 129. All outputs of instance <D_rs_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 130. All outputs of instance <D_rt_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 131. All outputs of instance <D_rd_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 132. All outputs of instance <D_regWa_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 133. All outputs of instance <D_regWsrc_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 134. All outputs of instance <D_aluOp_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 135. All outputs of instance <D_aluSrc1_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 136. All outputs of instance <D_aluSrc2_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 137. All outputs of instance <D_offset32_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 138. All outputs of instance <D_Tnew_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 139. All outputs of instance <D_regOut1_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 140. All outputs of instance <D_regOut2_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 141. All outputs of instance <D_offset_E> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 146. All outputs of instance <alu> of block <alu> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 150. All outputs of instance <E_pc_M> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 151. All outputs of instance <E_pc8_M> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 152. All outputs of instance <E_instr_M> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 153. All outputs of instance <E_regOut1_M> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 154. All outputs of instance <E_regOut2_M> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 155. All outputs of instance <E_aluOut_M> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 156. All outputs of instance <E_regWd_M> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 157. All outputs of instance <E_regW_M> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 158. All outputs of instance <E_memToreg_M> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 159. All outputs of instance <E_memW_M> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 160. All outputs of instance <E_rs_M> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 161. All outputs of instance <E_rt_M> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 162. All outputs of instance <E_rd_M> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 163. All outputs of instance <E_regWa_M> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 164. All outputs of instance <E_Tnew_M> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 167. All outputs of instance <dm> of block <dm> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 171. All outputs of instance <M_pc_W> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 172. All outputs of instance <M_pc8_W> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 173. All outputs of instance <M_instr_W> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 174. All outputs of instance <M_regWd_W> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 175. All outputs of instance <M_regW_W> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 176. All outputs of instance <M_regWa_W> of block <pipereg> are unconnected in block <mips>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <mips>.
+    Related source file is "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v".
+INFO:Xst:3210 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 98: Output port <code> of the instance <ctrl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 98: Output port <func> of the instance <ctrl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 103: Output port <regFor1_M> of the instance <forwardctrl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 103: Output port <pc8For_D> of the instance <forwardctrl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 103: Output port <pc8For_E> of the instance <forwardctrl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 103: Output port <pc8For_M> of the instance <forwardctrl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 135: Output port <out> of the instance <D_aluSrc1_E> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 162: Output port <out> of the instance <E_rd_M> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\123\Desktop\verilog\P5\pipeline\mips.v" line 173: Output port <out> of the instance <M_instr_W> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <aluOut_E> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <isStall> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <aluSrc1_D> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <mips> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <mips> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block mips, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : mips.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx100fgg676-2 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                           2
+ Number of bonded IOBs:                   0  out of    480     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 24.00 secs
+Total CPU time to Xst completion: 23.82 secs
+ 
+--> 
+
+Total memory usage is 5568340 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   72 (   0 filtered)
+Number of infos    :    9 (   0 filtered)
+
